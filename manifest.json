@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Copy Page Content",
+    "description": "A Google Chrome extension that copies the content of the current open page into the clipboard on right-click. By Akshat Sanvaliya",
+    "version": "1.0.0",
+    "permissions": ["contextMenus", "clipboardWrite", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
